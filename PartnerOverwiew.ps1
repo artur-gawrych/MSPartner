@@ -1,4 +1,4 @@
-function Get-TechincalNotificationEmails {
+function Get-TechnicalNotificationEmails {
     [CmdletBinding()]
     param (
     )
@@ -8,12 +8,12 @@ function Get-TechincalNotificationEmails {
     $CompanyInfo = Get-MsolCompanyInformation -TenantId $Tenant.TenantId -ErrorAction SilentlyContinue
     [PSCustomObject]@{
     'Name'              = $Tenant.Name
-    'TenantId'         = $Tenant.TenantId
+    'TenantId'          = $Tenant.TenantId
     'Technical Email'   = $CompanyInfo.TechnicalNotificationEmails
     }
 }
 }
-function Set-TechincalNotificationEmails {
+function Set-TechnicalNotificationEmails {
     [CmdletBinding()]
     param (
     [Parameter(Mandatory = $true)]
