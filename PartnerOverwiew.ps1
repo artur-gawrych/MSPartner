@@ -17,7 +17,7 @@ function Set-TechnicalNotificationEmails {
     [CmdletBinding()]
     param (
     [Parameter(Mandatory = $true)]
-    $TechincalEmail
+    $TechnicalEmail
     )
     $Tenants = Get-TechincalNotificationEmails
     foreach ($tenant in $Tenants){

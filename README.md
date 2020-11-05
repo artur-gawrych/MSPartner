@@ -10,4 +10,4 @@
 
 ![Get-TechnicalNotificationEmails output](Assets/Get-TechincalNotificationEmails_example.png)
 
-`Set-TechnicalNotificationEmails` will change the email address for technical notifications for **ALL** of your customers. Use `-TechincalEmail` parameter to specify the email address.
+`Set-TechnicalNotificationEmails` will change the email address for technical notifications for **ALL** of your customers. Use `-TechnicalEmail` parameter to specify the email address.
